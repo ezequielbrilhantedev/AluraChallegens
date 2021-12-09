@@ -1,7 +1,17 @@
-.img {
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   &__logo {
     width: 14rem;
     display: flex;
     justify-content: flex-start;
+  }
+
+  &__search {
+    width: 35rem;
+    height: 3rem;
+    background: #2d415a;
   }
 }
