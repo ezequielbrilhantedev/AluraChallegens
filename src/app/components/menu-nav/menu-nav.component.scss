@@ -1,0 +1,17 @@
+.nav-menu {
+  list-style: none;
+
+  &__menu {
+    color: #fff;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+
+    margin-bottom: 16px;
+    margin-top: 40px;
+  }
+
+  &__item-editor {
+    margin-bottom: 16px;
+  }
+}
