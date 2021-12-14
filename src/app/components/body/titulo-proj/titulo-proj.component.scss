@@ -55,11 +55,39 @@
 
     &__select-lang {
       select {
-        width: 272px;
+        width: 17rem;
         height: 56px;
         border-radius: 8px;
         background: #2d415a;
         color: #fff;
+      }
+    }
+
+    &__background-color {
+      margin-top: 16px;
+
+      div {
+        border: solid 1px #ffffff;
+        border-radius: 8px;
+        width: 17rem;
+      }
+
+      button {
+        width: 15.8rem;
+        height: 3.5rem;
+        margin: 8px;
+        border-radius: 8px;
+        background: #6bd1ff;
+      }
+    }
+
+    &__button-save {
+      margin-top: 2rem;
+
+      button {
+        width: 17rem;
+        background: #5081fb;
+        font-size: 16px;
       }
     }
   }
