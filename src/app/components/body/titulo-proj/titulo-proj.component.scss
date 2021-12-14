@@ -1,5 +1,28 @@
+.info-proj {
+  margin-top: 40px;
+  margin-right: 32px;
+}
+
 .desc-proj {
+  list-style: none;
+
   &__title {
     color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+  }
+
+  &__name-proj {
+    input {
+      width: 272px;
+      height: 56px;
+      border-radius: 8px;
+      background: #2d415a;
+    }
   }
 }
