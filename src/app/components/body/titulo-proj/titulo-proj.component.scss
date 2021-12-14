@@ -23,6 +23,19 @@
       height: 56px;
       border-radius: 8px;
       background: #2d415a;
+      color: #fff;
+    }
+
+    margin-bottom: 16px;
+  }
+
+  &__descricao-proj {
+    textarea {
+      width: 272px;
+      height: 80px;
+      border-radius: 8px;
+      background: #2d415a;
+      color: #fff;
     }
   }
 }
