@@ -16,8 +16,9 @@
     <li class="custom__title">Personalização</li>
     <li class="custom__select-lang">
       <select>
-        <option value="1">JavaScript</option>
-        <option value="2">Python</option>
+        <option *ngFor="let linguagem of linguagens" [value]="linguagem">
+          {{ linguagem }}
+        </option>
       </select>
     </li>
   </ul>
