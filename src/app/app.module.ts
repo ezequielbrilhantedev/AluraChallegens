@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { MenuNavComponent } from './components/body/menu-nav/menu-nav.component';
 import { TituloProjComponent } from './components/body/titulo-proj/titulo-proj.component';
 import { BodyComponent } from './components/body/body.component';
+import { EditorCodeComponent } from './components/body/editor-code/editor-code.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BodyComponent } from './components/body/body.component';
     MenuNavComponent,
     TituloProjComponent,
     BodyComponent,
+    EditorCodeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
